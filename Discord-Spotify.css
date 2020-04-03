@@ -1,0 +1,92 @@
+@import url(https://capnkitten.github.io/BetterDiscord/Spotify-Discord/css/source.css);
+
+.modal-3c3bKg { /* blur behind modals and popups */
+    backdrop-filter: blur(24px) !important;
+}
+
+
+/* Dark textboxes */
+
+.scrollableContainer-2NUZem, .scrollableContainer-38zsVD, .emojiPicker-3m1S-j .header-1nkwgG .search-bar, .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ { 
+    background-color: #1a1a1a !important;
+}
+
+.input-cIJ7To, .input-3Xdcic, .input-1UhAnY, .container-CpszHS, .container-1s4HBn, .search .search-bar, .searchBar-1MOL6S, .header-1R_AjF .search-bar, .quickMessage-2XpSaN, .wrapper-1cBijl .addFriendInput-4bcerK, .input-2VB9rf, .copyInput-2rOSt7, #pubslayer input, .bda-slist li input:not([type="range"]), .search-2oPWTC .searchBar-3dMhjb, .searchBar-2_Yu-C input, .form.deprecated .control-group input[type=text], .dc-password-field, .searchBar-6Kv8R2 .searchBarComponent-32dTOx input, .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background-color: #0b0b0b !important;
+}
+
+/* labels color */
+.botTagRegular-2HEhHi, .newMessagesBar-mujexs button {
+    color: #2A2A2A !important;
+}
+
+.scrollableContainer-2NUZem .markup-2BOw-j, .scrollableContainer-38zsVD .markup-2BOw-j, .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ input, .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ input::-webkit-input-placeholder, .search-2oPWTC .DraftEditor-root {
+    color: white !important;
+    caret-color: #d2d2d2 !important;
+}
+
+.search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
+    color: #666 !important;
+}
+
+/* Typing / slowmode blur */
+.typing-2GQL18 {
+    backdrop-filter: blur(24px);
+}
+
+/* Top bar blur */
+.chat-3bRxxu {
+    background: #1B1B1B !important;
+}
+
+.chatContent-a9vAAp {
+    margin-top: -48px;
+}
+
+.title-3qD0b-, .container-1r6BKw {
+    background: #2A2A2A80 !important;
+    backdrop-filter: blur(24px);
+}
+
+.hasMore-3e72_v {
+    padding-top: 24px;
+}
+
+.default-1mVZrv.base-19D3Qq { /* Size fix */
+    margin-top: 100px;
+}
+
+.newMessagesBar-mujexs {
+    padding-top: 48px;
+}
+
+/* Recent mentions size adjustments */
+
+.header-1R_AjF, .header-2tA9Os, .header-ykumBX {
+    padding-top: 17px !important;
+    padding-bottom: 0px !important;
+}
+
+.size16-1P40sf {
+    padding-bottom: 12px;
+}
+
+h3.title-29uC1r.base-1x0h_U.size16-1P40sf {
+    padding-bottom: 0px !important;
+}
+
+/* Rounded corners popups */
+
+.contextMenu-HLZMGh {
+    border-radius: 10px;
+}
+
+/* Rounded corners code blocks */
+.markup-2BOw-j pre, .markup-2BOw-j code {
+    border-radius: 10px !important;
+}
+
+/* Scrollbar fixes */
+.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
+    margin-top: 48px;
+}
